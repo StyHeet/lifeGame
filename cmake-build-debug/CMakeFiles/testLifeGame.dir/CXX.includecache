@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/LO21/testLifeGame/etat.h
+iostream
+-
+cstdio
+-
+
+D:/LO21/testLifeGame/main.cpp
+iostream
+-
+voisinage.h
+D:/LO21/testLifeGame/voisinage.h
+etat.h
+D:/LO21/testLifeGame/etat.h
+fstream
+-
+string
+-
+
+D:/LO21/testLifeGame/voisinage.h
+iostream
+-
+cstdio
+-
+
