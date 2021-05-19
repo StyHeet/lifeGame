@@ -1,0 +1,45 @@
+5 //nb etat
+rouge bleu vert jaune orange // liste des x etat
+
+voisi  //mode definition du voisinage + regles x tel etat 
+
+000000000
+000000000
+000000000
+000111000
+000121000
+000111000
+000000000
+000000000
+000000000
+
+
+
+rouge : 3 orange - bleu //cellule rouge 3 voison orange devient bleu
+bleu : 2 orange - bleu   //....
+vert : 3 orange - bleu
+jaune : 4 orange - bleu
+orange : 2 orange - bleu
+
+
+
+
+===================================================================================================
+5 //nb etat
+rouge bleu vert jaune orange // liste des x etat
+
+pos  //mode definition coordonne + etat 
+
+rouge - bleu // rouge devient bleu si (conditions dans les lignes suivant jusque ligne vide)
+-1 1 rouge
+-3 4 rouge
+1 1 bleu
+2 2 vert
+
+vert - jaune // vert devient jaune si 
+-1 1 rouge
+-3 4 rouge
+1 1 bleu
+2 2 vert
+
+....
